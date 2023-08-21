@@ -56,7 +56,7 @@ return(
         </div>
 <div className="flex w-full flex-col">
 <Link href={`/profile/${author.id}`} className= "w-fit">
-    <h4 className="cursor-pointer text-base-semibold text-light-1">authorname</h4>
+    <h4 className="cursor-pointer text-base-semibold text-light-1">{author.name}</h4>
     </Link>
     <p className="text-small-regular mt-2 text-light-2">{content}</p>
     <div className={` mt-5 flex flex-col gap-3`}>
