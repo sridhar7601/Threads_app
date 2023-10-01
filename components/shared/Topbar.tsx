@@ -23,14 +23,14 @@ function Topbar() {
                     </SignedIn>
                     
                 </div>
-                <OrganizationSwitcher
+{/*                 <OrganizationSwitcher
                 appearance={{
                     baseTheme: dark,
                     elements: {
                         OrganizationSwitcherTrigger: "py-2 px-4"
                     }
                  }}
-                />
+                /> */}
 </div>
 
         </nav>
